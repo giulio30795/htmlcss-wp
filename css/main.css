@@ -20,7 +20,19 @@ body{
     content: '';
     clear: both;
     display: table;
+
 }
+
+.container{
+    width: 70%;
+    margin: 10px auto;
+}
+
+section,
+footer{
+    margin-top: 10px;
+}
+/* Header */
 
 header img{
     width: 150px;
@@ -32,16 +44,31 @@ header ul li {
     display: inline-block;
     margin: 15px 12px 15px 0px;
     font-weight: 300;
-    
-}
-.container{
-    width: 80%;
-    margin: 10px auto;
 }
 
-section,
-footer{
-    margin-top: 10px;
+/* Logo Section */
+.logo{
+    width: 100%;
+    background-image: url('../img/banner.jpg');
+    height: 550px;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+
+.description{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 40%;
+    color: white;
+}
+.description span:first-child{
+    font-size: 20px;
+}
+
+.description span:last-child{
+    font-size: 12px;
 }
 
 .space{
