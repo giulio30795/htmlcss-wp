@@ -40,6 +40,14 @@ h1,h2,h3,h4,h5{
 .text{
     font-size: 12px;
 }
+
+.img-aside{
+    height: 200px;
+    background-image: url('../img/img-1.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
 /* Header */
 
 header img{
