@@ -41,13 +41,15 @@ h1,h2,h3,h4,h5{
     font-size: 12px;
 }
 
-.img-aside{
-    height: 200px;
-    background-image: url('../img/img-1.jpg');
+.img-section{
+    height: 250px;
     background-size: cover;
     margin-top: 20px;
     margin-bottom: 15px;
+    background-position: center;
+
 }
+
 /* Header */
 
 header img{
@@ -95,12 +97,26 @@ header ul li {
     border-style: solid;
 }
 
+/* Content Section */
+
+.img1{
+    background-image: url('../img/img-1.jpg');
+}
+
+.img2{
+    background-image: url('../img/banner-2.jpg');
+
+}
+
+.img3{
+    background-image: url('../img/img-3.jpg');
+}
 aside {
     float: left;
-    width: 15%;
+    width: 20%;
 }
 
 .content {
     float: left;
-    width: 70%;
+    width: 60%;
 }
