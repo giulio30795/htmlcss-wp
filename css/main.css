@@ -8,20 +8,18 @@
 body{
     font-family: 'Montserrat';
     color: #C9C9C9;
-
 }
 
 /* Commons */
 
 .pd10{
-    padding-left: 10px;
-    padding-right: 10px;
+ padding: 10px
 }
+
 .clearfix::after{
     content: '';
     clear: both;
     display: table;
-
 }
 
 .container{
@@ -37,14 +35,15 @@ footer{
 h1,h2,h3,h4,h5{
     color: black;
     margin-top: 30px;
+
 }
 
 h4{
     margin-bottom: 10px;
+    font-weight: 100;
 }
 .text{
-    font-size: 12px;
-    
+    font-size: 14px;
 }
 
 .img-section{
@@ -55,10 +54,17 @@ h4{
     background-position: center;
 }
 
+.img-section,
+.logo,
+.overlay {
+    border-radius: 10px;
+}
+
 /* Header */
 
-header img{
+img{
     width: 150px;
+    margin-bottom: 20px;
 }
 
 header ul li {
@@ -79,6 +85,13 @@ header ul li {
     position: relative;
 }
 
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(000, 000, 000,0.25);
+    z-index: 1;
+}
+
 .description{
     position: absolute;
     left: 50px;
@@ -86,15 +99,17 @@ header ul li {
     width: 40%;
     color: white;
 }
-.description span:first-child{
-    font-size: 20px;
+
+.description div:first-child{
+    font-size: 24px;
 }
 
-.description span:last-child{
-    font-size: 12px;
-}
+/* Column Content */
 
-/* Content Section */
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
 
 .img1{
     background-image: url('../img/img-1.jpg');
@@ -122,10 +137,10 @@ aside {
 footer{
     text-align: center;
     color: black;
-    font-size: 12px;
+
 }
 
 .heart{
     color: #FF0000;
-font-size: 14px;
+font-size: 16px;
 }
