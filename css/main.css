@@ -10,6 +10,7 @@ body{
     color: #C9C9C9;
 
 }
+
 /* Commons */
 
 .pd10{
@@ -37,8 +38,13 @@ h1,h2,h3,h4,h5{
     color: black;
     margin-top: 30px;
 }
+
+h4{
+    margin-bottom: 10px;
+}
 .text{
     font-size: 12px;
+    
 }
 
 .img-section{
@@ -47,7 +53,6 @@ h1,h2,h3,h4,h5{
     margin-top: 20px;
     margin-bottom: 15px;
     background-position: center;
-
 }
 
 /* Header */
@@ -89,14 +94,6 @@ header ul li {
     font-size: 12px;
 }
 
-.space{
-    height: 50px;
-    width: 100%;
-    background: blue;
-    border:1px;
-    border-style: solid;
-}
-
 /* Content Section */
 
 .img1{
@@ -105,12 +102,12 @@ header ul li {
 
 .img2{
     background-image: url('../img/banner-2.jpg');
-
 }
 
 .img3{
     background-image: url('../img/img-3.jpg');
 }
+
 aside {
     float: left;
     width: 20%;
@@ -119,4 +116,16 @@ aside {
 .content {
     float: left;
     width: 60%;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+
+.heart{
+    color: #FF0000;
+font-size: 14px;
 }
