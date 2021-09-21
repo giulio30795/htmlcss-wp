@@ -52,12 +52,13 @@ h4{
     margin-top: 20px;
     margin-bottom: 15px;
     background-position: center;
+    position: relative;
 }
 
 .img-section,
-.logo,
-.overlay {
+.logo{
     border-radius: 10px;
+    overflow: hidden;
 }
 
 /* Header */
@@ -77,26 +78,40 @@ header ul li {
 
 /* Logo Section */
 .logo{
-    width: 100%;
+    
     background-image: url('../img/banner.jpg');
     height: 550px;
     background-position:center;
     background-size: cover;
     position: relative;
 }
+.logo::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2)
+}
+.img-section::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2)
+}
 
-.overlay{
+/* .overlay{
     height: 100%;
     width: 100%;
     background-color: rgba(000, 000, 000,0.25);
     z-index: 1;
-}
+} */
 
 .description{
     position: absolute;
-    left: 50px;
-    bottom: 50px;
-    width: 40%;
+    left: 60px;
+    bottom: 60px;
+    width: 45%;
     color: white;
 }
 
@@ -113,6 +128,7 @@ h1{
 
 .img1{
     background-image: url('../img/img-1.jpg');
+
 }
 
 .img2{
